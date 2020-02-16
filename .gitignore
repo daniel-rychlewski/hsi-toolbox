@@ -1,0 +1,49 @@
+# Runs / tests collaterals
+latest_log_dir
+latest_log_file
+logs/
+*.log
+*.tar
+*.pyc
+__pycache__/
+.pytest_cache
+.cache
+pytest_collaterals/
+
+# Virtual env
+env/
+.env/
+
+# IDEs
+.idea/
+.vscode/
+
+# OS X
+.DS_Store
+._.DS_Store
+
+# PIP
+distiller.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+.idea/workspace.xml
+*.xml
+DeepHyperX/checkpoints/*
+.idea/shelf/totally_irrelevant/
+DeepHyperX/Datasets/DFC2018_HSI/
+distiller-master/
+distiller/__pycache__/
+distiller/apputils/__pycache__/
+distiller/data_loggers/__pycache__/
+distiller/models/__pycache__/
+distiller/models/cifar10/__pycache__/
+distiller/models/imagenet/__pycache__/
+distiller/modules/__pycache__/
+distiller/pruning/__pycache__/
+distiller/quantization/__pycache__/
+distiller/regularization/__pycache__/
+examples/__pycache__/
+examples/automated_deep_compression/__pycache__/
+Datasets/DFC2018_HSI/

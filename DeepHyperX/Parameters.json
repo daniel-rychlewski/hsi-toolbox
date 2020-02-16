@@ -1,0 +1,84 @@
+{
+  "training_sample": {
+    "min": "0.80",
+    "max": "0.80",
+    "step": "0.00"
+  },
+  "datasets": [
+    "IndianPines",
+    "Salinas",
+    "SalinasA",
+    "PaviaC",
+    "PaviaU",
+    "Cuprite-224",
+    "Cuprite-188",
+    "KSC",
+    "Botswana",
+
+    "Samson",
+    "JasperRidge-198",
+    "JasperRidge-224",
+    "Urban-162",
+    "Urban-210",
+
+    "China",
+    "USA"
+  ],
+  "models": [
+    "SVM",
+    "SVM_grid",
+    "SGD",
+    "nearest",
+    "nn",
+    "hamida",
+    "lee",
+    "chen",
+    "li",
+    "hu",
+    "he",
+    "luo_cnn",
+    "sharma",
+    "liu",
+    "boulch",
+    "mou",
+
+    "roy",
+    "santara",
+    "cao",
+    "luo_rnn"
+  ],
+  "image_compression": {
+    "extraction": {
+      "techniques": [
+      "PCA",
+      "IncrementalPCA",
+      "KernelPCA",
+      "SparsePCA",
+      "LDA",
+      "SVD",
+      "GRP",
+      "SRP",
+      "MDS",
+      "MiniBatch",
+      "LLE",
+      "ICA",
+      "FactorAnalysis",
+      "ISOMAP",
+      "t-SNE",
+      "UMAP",
+      "NMF",
+      "FAG"
+      ],
+      "modes": ["supervised", "unsupervised"]
+    },
+    "selection": {
+      "techniques": [
+        "RandomForest",
+        "LogisticRegression",
+        "LinearRegression",
+        "LightGBM"
+      ],
+      "modes": ["forward", "backward_threshold", "backward_iterate"]
+    }
+  }
+}
